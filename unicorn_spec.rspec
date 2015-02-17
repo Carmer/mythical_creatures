@@ -1,0 +1,11 @@
+require 'unicorn'
+require "rspec"
+
+describe Unicorn do
+
+  it "has a name" do
+    unicorn =  Unicorn.new("Wendy")
+    expect(Unicorn.name).to eq("wendy")
+  end
+
+end
